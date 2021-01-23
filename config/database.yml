@@ -1,0 +1,20 @@
+default: &default
+  adapter: postgresql
+  encoding: unicode
+  username: sksingh
+  password: singh
+  pool: 5
+
+development:
+  <<: *default
+  database: realtime_chat_app_dev
+
+test:
+  <<: *default
+  database: realtime_chat_app_test
+
+production:
+  <<: *default
+  database: realtime_chat_app_prod
+  username: sksingh
+  password: <%= ENV['REALTIME_CHAT_APP_DATABASE_PASSWORD'] %>
