@@ -1,25 +1,14 @@
 # README
+# @author [Shailaja Kant Singh]
+# realtime-chat-app
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+How to project setup and run application
 
 Things you may want to cover:
 
-* Ruby version
+* Ruby version 2.5.1
+* Rails version 5.2.1
+* database postgresql ( gem 'pg')
+* update database.yml file ( create database also )
+* create gemset
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-# realtime-chat-app
